@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-brown{
+    background-color: brown;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    clear: both;
+}
+.col3{
+    width: 25%;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+header h2{
+    display: inline-block;
+    padding: 10px 0;
+}
+header nav{
+    float:right;
+    padding: 10px 0;
+}
+header nav ul{
+    list-style-type: none;
+    padding: 10px 0;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding:0 10px;
+}
+/* banner */
+#banner{
+    color: white;
+    padding: 200px 0;
+    text-align: center;
+    background-image: url('../img/Bordeaux\ space.jpg');
+    /* background-size: cover; */
+}
+#banner h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+/* my skills */
+#skills .skillsbox{
+    /* height: 200px; */
+    margin: 10px 10px;
+    border: 2px solid red;
+    text-align: center;
+}
+#skills .skillsbox i{
+    margin: 10px;
+    font-size: 60px;
+}
+#skills .skillsbox h3{
+    margin: 10px;
+}
+#skills .skillsbox p{
+    margin: 10px;
+}
